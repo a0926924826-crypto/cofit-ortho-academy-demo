@@ -124,6 +124,18 @@ export default function Home() {
             <span className="text-[10px] text-[#8e9094] ml-2 mb-1 shrink-0">12:33</span>
           </div>
         </div>
+        
+        {/* Trust Banner */}
+        <div className="bg-[#1a1c20] border border-[#333] rounded-xl px-4 py-3 mx-2 mt-4 shadow-sm flex items-center justify-center">
+          <div className="flex items-center text-[#d1d5db] text-xs font-medium">
+            <span className="bg-blue-500/20 text-blue-400 p-1.5 rounded-full mr-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </span>
+            <span>至今已有 <span className="text-white font-bold text-sm mx-1">3,248</span> 人完成檢測</span>
+          </div>
+        </div>
       </div>
 
       {/* Rich Menu Container */}
